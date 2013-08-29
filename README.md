@@ -2,7 +2,7 @@
 
 * [Homepage](https://github.com/fermuch/realnick#readme)
 * [Issues](https://github.com/fermuch/realnick/issues)
-* [Documentation](http://rubydoc.info/gems/realnick/frames)
+* [Documentation](http://rubydoc.info/github/fermuch/realnick/master/frames)
 * [Email](mailto:fermuch at gmail.com)
 
 ## Description
