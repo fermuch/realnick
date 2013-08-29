@@ -27,4 +27,4 @@ It takes care of unicode problems, bad-characters, and adds some preffix to make
 
 Copyright (c) 2013 Fernando Mumbach
 
-See {file:LICENSE.txt} for details.
+See [LICENSE](LICENSE.txt) for details.
