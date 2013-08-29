@@ -5,8 +5,8 @@ require File.expand_path('../lib/realnick/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.name          = "realnick"
   gem.version       = Realnick::VERSION
-  gem.summary       = %q{TODO: Summary}
-  gem.description   = %q{TODO: Description}
+  gem.summary       = %q{Get real nicknames, usables for bots}
+  gem.description   = %q{Get real nicknames, usables for bots}
   gem.license       = "MIT"
   gem.authors       = ["Fernando Mumbach"]
   gem.email         = "fermuch@gmail.com"
