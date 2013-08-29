@@ -11,7 +11,7 @@ module Realnick
     # Main method. With this you fetch a nick based on the method.
     # Available methods: popular_anime, top_anime, upcoming_anime, just_added_anime
     def fetch(method = 'popular_anime')
-      methods = ['popular_anime', 'top_anime', 'upcoming_anime', 'just_added_anime']
+      methods = ['popular_anime', 'top_anime', 'upcoming_anime']
       raise ArgumentError, 'method not found' unless methods.include? method
 
       case method
@@ -21,8 +21,6 @@ module Realnick
         @url = 'http://mal-api.com/anime/popular'
       when 'upcoming_anime'
         @url = 'http://mal-api.com/anime/upcoming'
-      when 'just_added_anime'
-        @url = 'http://mal-api.com/anime/just_added'
       end
 
       anime = JSON.parse(open(@url).read).sample
