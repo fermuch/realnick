@@ -1,4 +1,5 @@
 # realnick
+[![Build Status](https://travis-ci.org/fermuch/realnick.png?branch=master)](https://travis-ci.org/fermuch/realnick)
 
 * [Homepage](https://github.com/fermuch/realnick#readme)
 * [Issues](https://github.com/fermuch/realnick/issues)
