@@ -8,7 +8,8 @@ require 'realnick/utils'
 module Realnick
   class << self
 
-    # Main method. With this you fetch a nick based on the method
+    # Main method. With this you fetch a nick based on the method.
+    # Available methods: popular_anime, top_anime, upcoming_anime, just_added_anime
     def fetch(method = 'popular_anime')
       methods = ['popular_anime', 'top_anime', 'upcoming_anime', 'just_added_anime']
       raise ArgumentError, 'method not found' unless methods.include? method
