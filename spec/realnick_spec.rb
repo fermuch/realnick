@@ -17,16 +17,4 @@ describe Realnick do
     Realnick.fetch.first.should be_an_instance_of(String)
   end
 
-  it "should work with method popular_anime" do
-    Realnick.fetch('popular_anime').first.should be_an_instance_of(String)
-  end
-
-  it "should work with method top_anime" do
-    Realnick.fetch('top_anime').first.should be_an_instance_of(String)
-  end
-
-  it "should work with method upcoming_anime" do
-    Realnick.fetch('upcoming_anime').first.should be_an_instance_of(String)
-  end
-
 end
